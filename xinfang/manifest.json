@@ -211,7 +211,8 @@
 					"images/muwu.jpg"
 				],
 				"refer": [
-					"setting.html"
+					"setting.html",
+					"kitchen.html"
 				],
 				"priority": 1
 			},
@@ -275,6 +276,14 @@
 					"main.html",
 					"reg.html"
 				],
+				"priority": 0
+			},
+			"kitchen.html": {
+				"resources": [
+					"js/mui.min.js",
+					"css/mui.min.css"
+				],
+				"refer": [],
 				"priority": 0
 			}
 		},

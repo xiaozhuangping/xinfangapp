@@ -1,7 +1,8 @@
 {
 	"main.html": {
 		"refer": [
-			"setting.html"
+			"setting.html",
+			"kitchen.html"
 		],
 		"resources": [
 			"js/app.js",
@@ -55,6 +56,12 @@
 	"reg.html": {
 		"resources": [
 			"fonts/mui.ttf"
+		]
+	},
+	"kitchen.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
 		]
 	}
 }
