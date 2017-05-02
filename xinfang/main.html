@@ -38,7 +38,7 @@
 				<div class="mui-card-footer">
 					<a class="mui-card-link">点赞</a>
 					<span class="mui-badge mui-badge-primary">12</span>
-					<a class="mui-card-link">更多</a>
+					<a id="kitchen" class="mui-card-link">更多</a>
 				</div>
 			</div>
 			<div class="mui-card">
@@ -116,6 +116,13 @@
 					var state = app.getState();
 					 mui.toast('登陆成功',{ duration:'long', type:'div' }) 
 				}, false);
+				var kitchen = doc.getElementById('kitchen');
+				kitchen.addEventListener('tap', function() {
+					mui.openWindow({
+						 id:'kitchen',
+					    url:'kitchen.html'
+					});
+				});
 			}(mui, document));
 		</script>
 	</body>
